@@ -1,0 +1,29 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@material-tailwind/react": "^2.1.10",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "emailjs": "^4.0.3",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
+    "multer": "^1.4.5-lts.1",
+    "newproject": "file:",
+    "react-countup": "^6.5.3",
+    "swiper": "^11.1.14",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
