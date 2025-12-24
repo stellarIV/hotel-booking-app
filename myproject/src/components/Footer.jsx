@@ -27,7 +27,6 @@ const Footer = () => {
           <div className='flex flex-col gap-4'>
           <Link to={'/privacypolicy'} className='text-sm hover:underline'>Privacy Policy</Link>
           <Link to={'/aboutus'} className='text-sm hover:underline'>About Us</Link>
-          {/* <Link to={'/careers'} className='text-sm hover:underline'>Careers</Link> */}
           <Link to={'/termsandconditions'} className='text-sm hover:underline'>Terms & Conditions</Link>
           </div>
           </div>
@@ -35,9 +34,7 @@ const Footer = () => {
             <div className='font-semibold mb-6'> 
               Contact Us
             </div>
-            {/* <div className='text-sm mb-4 flex-wrap'>
-              daker@gmail.com
-            </div> */}
+            
             <div className='text-sm mb-4'>
               Email: support@Mikas.com
             </div>
