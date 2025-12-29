@@ -1,4 +1,3 @@
-// frontend/src/components/ReservationForm.jsx
 import { useUser } from '@clerk/clerk-react';
 import React, { useState } from 'react';
 import { useEffect } from 'react';
@@ -92,7 +91,6 @@ const ReservationForm = ({ userEmail }) => {
         }
       }, [isLoaded, isSignedIn, user]);
     
-      // Display a loading state while loading user data
       if (!isLoaded) {
         return (
             <div className="animate-pulse mx-auto p-6 shadow-md w-[95%] sm:w-[90%] md:w-[80%] bg-white rounded-3xl lg:-mt-24">
