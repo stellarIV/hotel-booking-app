@@ -128,7 +128,6 @@ const ReservationForm = ({ userEmail }) => {
         );
       }
     
-      // Show a sign-in prompt if the user is not signed in
       if (!isSignedIn) {
         return (
             <form onSubmit={handleSubmit2} className="mx-auto p-6 shadow-md w-[95%] sm:w-[90%] md:w-[80%] bg-white rounded-3xl lg:-mt-32 mt-2">

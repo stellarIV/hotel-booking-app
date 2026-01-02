@@ -4,7 +4,6 @@ import CustomCursor from "./Effects/CustomCursor"; // Ensure this path is correc
 const NotFound = () => {
   return (
     <div className="relative flex flex-col cursor-pointer sm:cursor-none items-center justify-center h-screen text-center bg-[#cdefe2] overflow-hidden">
-      {/* Include the custom cursor */}
       <CustomCursor />
 
       <div className="relative z-10">

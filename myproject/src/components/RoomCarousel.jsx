@@ -1,6 +1,5 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 
-// Slide data array
 const slides = [
   {
     src: "https://static21.com-hotel.com/uploads/hotel/55200/photo/benmas-hotel_153073731114.jpg",
