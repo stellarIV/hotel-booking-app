@@ -1,21 +1,36 @@
 import React from "react";
-import CustomCursor from "./Effects/CustomCursor"; // Ensure this path is correct based on your file structure
+import CustomCursor from "./Effects/CustomCursor"; 
 
 const NotFound = () => {
   return (
-    <div className="relative flex flex-col cursor-pointer sm:cursor-none items-center justify-center h-screen text-center bg-[#cdefe2] overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center h-screen text-center bg-[#cdefe2] overflow-hidden cursor-none">
       <CustomCursor />
 
-      <div className="relative z-10">
-        <h1 className="text-6xl font-bold mb-4">Oops!</h1>
-        <p className="text-2xl mb-8">We can't seem to find the page you're looking for.</p>
-        
-        <p className="text-xl">
-          Go back to <a href="/" className="text-[#2e9a71] dark:text-[#2e9a71] hover:underline">Home</a>.
-        </p>
+      {/* Background Decorative Element */}
+      <div className="absolute font-black text-[20rem] text-black/5 select-none pointer-events-none">
+        404
       </div>
-      
-     
+
+      <div className="relative z-10 px-6">
+        <h1 className="text-7xl md:text-9xl font-extrabold text-[#1b5e46] mb-4 tracking-tighter">
+          Oops!
+        </h1>
+        
+        <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-2">
+          Page not found
+        </h2>
+        
+        <p className="max-w-md mx-auto text-lg text-gray-600 mb-10">
+          The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+        </p>
+        
+        <a 
+          href="/" 
+          className="inline-block bg-[#2e9a71] text-white px-8 py-3 rounded-full font-semibold transition-transform hover:scale-105 active:scale-95 shadow-lg hover:bg-[#237a59]"
+        >
+          Back to Homepage
+        </a>
+      </div>
     </div>
   );
 };
