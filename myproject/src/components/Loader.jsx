@@ -14,12 +14,10 @@ const CanvasLoader = () => {
         flexDirection: 'column',
       }}
     >
-      {/* Spinning Ring or Logo Placeholder */}
       <div className="relative flex items-center justify-center">
         <div className="w-16 h-16 border-4 border-[#ff9b21]/20 border-t-[#ff9b21] rounded-full animate-spin" />
       </div>
 
-      {/* Progress Text */}
       <p
         style={{
           fontSize: 16,
@@ -33,7 +31,6 @@ const CanvasLoader = () => {
         {progress.toFixed(0)}%
       </p>
 
-      {/* Optional: Progress Bar */}
       <div style={{
         width: '100px',
         height: '4px',
